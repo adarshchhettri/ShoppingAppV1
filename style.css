@@ -1,5 +1,5 @@
 body {
-  background-color: aliceblue;
+  background-color: lightblue;
 }
 
 img {
@@ -12,10 +12,32 @@ form {
 
 label {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 24px;
+}
+
+.expe {
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 input {
-  height: 30px;
+  background-color: lightcyan;
+  height: 40px;
   width: 400px;
+  border: lightsteelblue solid 2px;
+  border-radius: 2px;
+}
+
+.exp {
+  width: 185px;
+  margin-right: 20px;
+}
+
+div {
+  display: flex;
+
+}
+
+.img:hover {
+  transform: rotateY(180deg);
 }
